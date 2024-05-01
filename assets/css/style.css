@@ -1,0 +1,155 @@
+/* Section-category */
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.category__item{
+  width: 12%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #FFC356;
+  display: inline-block;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 20px;
+  border-radius:10px;
+  cursor: pointer;
+}
+/* End Section-category */
+
+
+/* Section product */
+.product{
+  display: flex;
+  flex-wrap: wrap
+}
+
+.product__item{
+  width: 18%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  border-radius:5px;
+  overflow: hidden;
+}
+
+.product__image{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 /3;
+}
+.product__image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product__percent{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff9456d1;
+  color: white;
+  border-radius:5px;
+  padding: 5px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.product__content{
+  padding: 15px
+}
+.product__title{
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.product__meta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__price{
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.715)
+}
+
+.product__stock{
+  font-size: 16px;
+}
+/* End Section-product */
+
+.search{
+  margin-bottom: 20px;
+}
+
+.search input{
+  border: 2px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.search input:focus{
+  border-color: #FFC800;
+  outline: none;
+}
+
+.search button{
+  background-color: #00539B;
+  border: 2px solid #00539B;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.search button:hover{
+  background-color: white;
+  color: #00539B;
+}
+
+
+/* Pagination */
+.pagination{
+  margin: 20px
+}
+
+.pagination__page{
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px
+}
+
+.pagination__pre, .pagination__next{
+  background-color: #FFC356;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* End pagination */
+
+/* Category */
+.category .category__item{
+  color: rgba(255, 255, 255, 0.902);
+  font-size: 20px
+}
+/* End Category */
+
+
+/* Sort */
+.sort{
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+/* End Sort */
